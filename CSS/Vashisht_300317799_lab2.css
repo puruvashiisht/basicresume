@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-image: url(header-bg.png);
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+article{
+    text-align: center;
+    
+}
+
+.nav{
+    padding: 0px; background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    min-height: 20px;
+    padding: 10px 0 10px 0px
+}
+
+.nav li{ display: inline;}
+
+.intro { 
+    font-size: 22px;
+}
+
+.displaypic {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all 0.5s;
+}
+
+a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    transition: all .5s;
+  }
+
+a.twitter {
+    background-image: url(twitter.svg);
+  }
+  a.linkedin {
+    background-image: url(linkedin.svg);
+  }
+  a.insta {
+    background-image: url(insta.svg);
+  }
+
+  li{
+      list-style-type: none;
+      padding: 2px;
+  }
+  section{
+      background: white;
+      padding: 20px;
+  }
+
+  H2{
+      padding-top: 20px;
+  }
+
+  footer{
+      margin: 0%;
+      background-color: black;
+      color: white;
+      min-height: 40px;
+  }
+
+  .copyright {
+
+    padding-top: 10px;
+  }
+
+  .mailid{color:white}
